@@ -1,0 +1,68 @@
+@media only screen and (min-width: 992px) {
+    .contents{
+        padding: 10% 3% 3%;
+        float: bottom;
+    }
+    .articles{
+        background-color: bisque;
+        margin: 3%;
+        border: 1px solid black;
+        width: 30%;
+    }
+    #my_sections{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and  (max-width: 991px) and (min-width:768px){
+    #my_sections{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .articles{
+        float: right;
+        background-color: bisque;
+        margin: 3%;
+        border: 1px solid black;
+        width: 40%;
+        flex-grow: 1;
+    }
+
+}
+@media only screen and (max-width: 767px){
+    #my_sections{
+        display:block;
+    }
+    .articles{
+        background-color: bisque;
+        margin: 3%;
+        border: 1px solid black;
+        width: 90%;
+    }
+
+}
+header{
+    text-align: center;
+}
+.innerTitle{
+    float: right;
+    line-height: 0.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.contents{
+    padding: 10% 3% 3%;
+    float: bottom;
+}
+#title1{
+    background-color: yellow;
+}
+#title2{
+    background-color: yellowgreen;
+}
+#title3{
+    background-color: aqua;
+}
